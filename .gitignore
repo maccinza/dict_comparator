@@ -1,0 +1,6 @@
+*.pyc
+.coverage
+cover/
+dist/
+build/
+dict_comparator.egg-info/
