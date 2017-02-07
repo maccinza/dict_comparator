@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 from io import open
 from os import path
 
-import dict_comparator
+import dictcomparator
 
 here = path.abspath(path.dirname(__file__))
 
@@ -11,8 +11,8 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='dict_comparator',
-    version=dict_comparator.__version__,
+    name='dictcomparator',
+    version=dictcomparator.__version__,
 
     description=('A simple library for a better dictionary comparison when '
                  'testing code'),

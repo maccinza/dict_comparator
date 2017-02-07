@@ -30,7 +30,7 @@ Simply run:
 
 .. code:: bash
 
-    $ pip install dict_comparator
+    $ pip install dictcomparator
 
 
 Usage
@@ -40,7 +40,7 @@ For using the library in tests it is as simple as the following:
 
 .. code:: python
 
-    from dict_comparator import assert_dicts_equal
+    from dictcomparator import assert_dicts_equal
 
     ...
     # dict_1 and dict_2 are the two dictionaries being compared

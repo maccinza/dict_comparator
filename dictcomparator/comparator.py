@@ -3,7 +3,7 @@ from __future__ import absolute_import
 
 from deepdiff import DeepDiff
 
-from dict_comparator.exceptions import UsageError
+from dictcomparator.exceptions import UsageError
 
 
 def __parse_diff_msg(diff):

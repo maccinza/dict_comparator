@@ -4,8 +4,8 @@ from __future__ import absolute_import
 from unittest import TestCase
 from collections import OrderedDict
 
-from dict_comparator.exceptions import UsageError
-from dict_comparator.comparator import assert_dicts_equal
+from dictcomparator.exceptions import UsageError
+from dictcomparator.comparator import assert_dicts_equal
 
 
 class TestDictsComparison(TestCase):
